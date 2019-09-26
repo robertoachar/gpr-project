@@ -23,6 +23,7 @@
     "url": "https://github.com/robertoachar/gpr-project/issues"
   },
   "dependencies": {
+    "@robertoachar/gpr-package": "1.0.0",
     "esm": "3.2.25"
   },
   "devDependencies": {
