@@ -1,0 +1,37 @@
+{
+  "name": "gpr-project",
+  "version": "1.0.0",
+  "description": "A playground for GitHub Package Registry with npm.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/gpr-project#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "main.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/gpr-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/gpr-project/issues"
+  },
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "devDependencies": {
+    "eslint": "6.4.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "prettier": "1.18.2"
+  },
+  "license": "MIT"
+}
